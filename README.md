@@ -18,7 +18,7 @@ y personalmente. ¿Te gusta la idea? Sigue leyendo y te contamos un poco más so
 Tenemos un backend Rails con un API JSON que es consumida tanto por nuestra aplicación frontend como por las dos
 aplicaciones móviles.
 
-* Ruby on Rails 6
+* Ruby on Rails 7
 * MySQL
 * Sidekiq / Redis
 * RSpec
@@ -26,9 +26,10 @@ aplicaciones móviles.
 
 Aunque ese es nuestro stack actual, nuestros objetivos para los próximos meses son:
 
-* Migrar a Rails 7
 * Migrar a PostgreSQL
 * Migrar la aplicación frontend de Angular a Rails + Hotwire (Turbo & Stimulus)
+* Mejorar nuestra cobertura de tests
+* Terminar de migrar toda nuestra lógica de negocio a service objects.
 
 
 ## ¿Cómo es nuestro día a día?
